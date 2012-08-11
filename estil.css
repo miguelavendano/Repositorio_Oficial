@@ -5,7 +5,7 @@
 /* Etiquetas Generales */
 
 #wrap{
-	background-color:white;
+	
 	float:inherit;
 	width:950px;
 	height:700px;	
@@ -53,13 +53,16 @@ header{
 	float:inherit;
 	width:950px;	
 	margin: 0 auto;
+	
 
 }
 
 #logo{
 	float:left;
 	margin:8px 5px;		
- 	width:336px; height:80px;	
+ 	width:336px; height:80px;
+
+	
 	
 	
 }
@@ -131,7 +134,7 @@ nav ul li a{
 h2{
 	font-family: 'Merienda One', sans-serif;
 	font-size: 35px;
-	color:#041D8D;
+	color:#0B0B61;
 	margin-left: 60px;
 	text-shadow: -1px 2px 5px #0B0B3B;	
 }
@@ -140,7 +143,8 @@ p.slider{
 	width:300px;
 	height:100px;
 	font-family: 'Merienda One', sans-serif;
-	font-size: 16x;
+	font-size: 16x;	
+	color:#0A0A2A;
 	/* border: 1px solid; */
 
 }
@@ -151,10 +155,9 @@ p.slider{
 
 #contenido{	
 	float:left;
-	height:400px;	
+	height:320px;	
 	width:950px;	
-	margin-top: 50px;
-	
+	margin-top: 60px;	
 }
 
 
@@ -163,17 +166,17 @@ article{
 	width:290px;
 	height:300px;
 	margin-top:10px;
-	margin-left:20px;	
-/* 	border: 1px solid; */
+	margin-left:20px;
 
 }
 
 h3.titulo{
 	margin: 5px 5px 5px 5px;
 	float:left;
-	font-size:25px;
+	font-size:20px;
 	font-family: 'Merienda One', sans-serif;
 	text-shadow: -1px 2px 5px #888888;	
+	color: #0B0B3B;;
 	
 
 }
@@ -192,7 +195,7 @@ h3.titulo{
 	float:center;
 	width:240px;
 	height:120px;	
-		
+	
 	
 }
 
@@ -203,82 +206,79 @@ p.cont_tex{
 	font-size:14px;
 	width:250px;
 	height:100px;
+	color: #0A0A2A;
+	
 }
-
-
-
-#twitter{	
-	float:left;
-	width: 250px;
-	height: 400px;
-	margin-left: 20px;
-	//border: solid 2px;
-
-}
-
-
 
 
 /*-------  Footer   ---------*/
 
-footer {
-	
-	/* float: left; */
-	margin-top:10px;
-	height:200px;
+footer {	
+	float:inherit;
+	margin-top:30px;
+	height:230px;
 	width: 100%;
-
-
-background: rgb(2,0,33); /* Old browsers */
-/* IE9 SVG, needs conditional override of 'filter' to 'none' */
-background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAyMDAyMSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjQzJSIgc3RvcC1jb2xvcj0iIzAxMDAwZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
-background: -moz-linear-gradient(top,  rgba(2,0,33,1) 0%, rgba(1,0,15,1) 43%, rgba(0,0,0,1) 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(2,0,33,1)), color-stop(43%,rgba(1,0,15,1)), color-stop(100%,rgba(0,0,0,1))); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top,  rgba(2,0,33,1) 0%,rgba(1,0,15,1) 43%,rgba(0,0,0,1) 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top,  rgba(2,0,33,1) 0%,rgba(1,0,15,1) 43%,rgba(0,0,0,1) 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top,  rgba(2,0,33,1) 0%,rgba(1,0,15,1) 43%,rgba(0,0,0,1) 100%); /* IE10+ */
-background: linear-gradient(to bottom,  rgba(2,0,33,1) 0%,rgba(1,0,15,1) 43%,rgba(0,0,0,1) 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#020021', endColorstr='#000000',GradientType=0 ); /* IE6-8 */
-
-
+	background: rgb(2,0,33);
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAyMDAyMSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjQzJSIgc3RvcC1jb2xvcj0iIzAxMDAwZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	color: blue;
+	background: -moz-linear-gradient(top,  rgba(2,0,33,1) 0%, rgba(1,0,15,1) 43%, rgba(0,0,0,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(2,0,33,1)), color-stop(43%,rgba(1,0,15,1)), color-stop(100%,rgba(0,0,0,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(2,0,33,1) 0%,rgba(1,0,15,1) 43%,rgba(0,0,0,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(2,0,33,1) 0%,rgba(1,0,15,1) 43%,rgba(0,0,0,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(2,0,33,1) 0%,rgba(1,0,15,1) 43%,rgba(0,0,0,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(2,0,33,1) 0%,rgba(1,0,15,1) 43%,rgba(0,0,0,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#020021', endColorstr='#000000',GradientType=0 ); /* IE6-8 */
  	border: 2px solid black;
  	-moz-border-radius: 0px 25px 0px 25px;
 	-o-border-radius: 0px 25px 0px 25px;
 	box-shadow: 10px 10px 55px 5px #888888;	
-	
-
-	padding: 20px 0px 0px 0px;
 	opacity: 5;
 
 }
 
-#cont_foot{
+#foot_marco{
+ 	float:center;
+	width:950px;
+	height:230px;	
+	margin: 0px auto;
 
-	float:inherit;
-	margin: 0 auto;		
- 	width:500px; height:80px;
-}
-
-#cont_foot p{
-
-	font-family: Arial, "Times New Roman", sans-serif;
-	font-size:16px;
-	float:inherit;
-	margin: 0 auto;	
-	color:white
-
-}
-
-#cont_foot a{
-
-	font-family: Arial, "Times New Roman", sans-serif;
-	font-size:14x;	
-	text-decoration:none;
-	float:inherit;
-	margin-left: 110px;	
-	color:white;
 	
 }
 
+#foot_web{
+	float:left;
+	width:220px;
+	height:200px;	
+	margin-left: 5px;
+	margin-top:10px;
+ 	/* border: 1px solid;	 */
+}
+#foot_cont{
+	float:left;
+	width:270px;
+	height:200px;	
+	margin-top:10px;
+	/* border: 1px solid;  */
+	
+}
+
+
+#foot_tecnologias{
+	float:left;
+	width:390px;
+	height:200px; 	
+ 	margin-left:30px;	
+	margin-top:10px;
+  	/* border: 1px solid;  */ 
+	
+	
+}
+
+p.titulo_foot{	
+	float:lefth;
+	color:white;
+	font-family: 'Merienda One', sans-serif;
+	margin-top: -3px;
+}
 
 
