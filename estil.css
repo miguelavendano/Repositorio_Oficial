@@ -7,8 +7,8 @@
 #wrap{
 	
 	float:inherit;
-	width:1000px;
-	height:900px;	
+	width:950px;
+	height:800px;	
 	margin: 0 auto;
 	margin-top: 15px;
 	border: 1px solid; 
@@ -292,7 +292,7 @@ article.sectioncontenido {
 	height:300px;
 	margin-top:10px;
 	margin-left:20px;
-
+    border: 1px solid;
 }
 
 
@@ -300,7 +300,7 @@ article.sectioncontenido {
 
 #columna1{
 	float:left;	
-	width:700px;
+	width:650px;
 	height:700px;
 	margin-left:20px;
 	border: 1px solid; 
@@ -318,7 +318,7 @@ article.sectioncontenido {
 #columna3 
 {
 		float:left;
-		width:940px;
+		width:900px;
 		height:50px;
 		margin:20px 20px 20px 20px;
 		border: 1px solid;
@@ -343,27 +343,41 @@ h3.tcontenido{
 	
 
 }
-
 p.slogan_text
+{
+	margin:10px 10px 10px 10px;
+	float: center;
+	/* text-align:center; */
+	font-family: 'Merienda One', sans-serif;
+	font-size:14px;
+	width:880px;
+	height:100px;
+	color: #0A0A2A;
+	
+		
+}
+
+p.section_tex
 {
 	margin:10px 10px 10px 10px;
 	float: left;
 	/* text-align:center; */
 	font-family: 'Merienda One', sans-serif;
-	font-size:14px;
-	width:900px;
+	font-size:13px;
+	width:580px;
 	height:100px;
 	color: #0A0A2A;
 	
+		
 }
 /*----------------------- aside ----------------*/
 article.asidecontenido{
 	float:left;
-	width:240px;
+	width:200px;
 	height:300px;
 	margin-top:10px;
-	margin-left:20px;
-
+	margin-left:9px;
+    border: 1px solid;
 }
 
 
@@ -377,6 +391,8 @@ p.aside_tex
 	width:180px;
 	height:100px;
 	color: #0A0A2A;
+	
+	
 	
 }
 h3.asidecontenido{
