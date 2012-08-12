@@ -301,15 +301,20 @@ article.sectioncontenido {
 #columna1{
 	float:left;	
 	width:700px;
-	height:700px;
-	margin-left:20px;
+	height:650px;
+	margin-left:10px;
 	border: 1px solid; 
 }
 
 #columna2{
 	float:left;
+<<<<<<< HEAD
 	width:220px;
 	height:700px;
+=======
+	width:200px;
+	height:650px;
+>>>>>>> cambios innecesarios
 	margin-left:20px;
 	border: 1px solid; 
 		
