@@ -1,0 +1,91 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+
+	<head>	
+		<title>GiSoft Colombia</title>
+		<!-- <meta charset="utf-8"/> -->
+		<meta charset="encoding">
+		<meta name="description" content="Tecnologia, Calidad e Ingenio."/>
+		<meta name="keywords" content="empresa web, villavicencio, colombia, gisoft"/>
+		<link rel="stylesheet" href="estil.css" type="text/css"/> 
+
+		<!-- Para fuentes -->
+		
+		<link href='http://fonts.googleapis.com/css?family=Merienda+One|Bangers&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,800&subset=latin,cyrillic-ext,latin-ext,cyrillic,greek-ext,greek,vietnamese' rel='stylesheet' type='text/css'>
+		
+		<!-- Place somewhere in the <head> of your document -->
+		<link rel="stylesheet" href="flexslider.css" type="text/css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+		<script src="jquery.flexslider.js"></script>
+		
+		<!-- para el twitter -->
+		
+		<link rel="stylesheet" href="jquery.tweet.css"> <!-- el css es opcional -->			
+		<script language="javascript" src="jquery.tweet.js" type="text/javascript"></script><!-- incluimos al plugin -->
+			
+		<!-- Place in the <head>, after the three links -->
+		<script type="text/javascript" charset="utf-8">
+		  $(window).load(function() {
+			$('.flexslider').flexslider({
+				  animation: "slide",
+				  controlsContainer: ".flex-container"
+			});
+		  });
+		</script>
+			
+		<script type='text/javascript'>
+			$(document).ready(function(){
+				$(".tweet").tweet({ // aca es donde se le indica donde poner los tweets, le pondremos un div vacio con clase .tweets
+					username: "gisoftsas", // el usuario
+					avatar_size: 32, // Ponle 0 si no quieres avatares
+					count: 3, // Numero de tweets
+					loading_text: "Cargando..."
+				});
+			});
+		</script>
+		
+	</head>
+	<body>    
+		<header> 
+		<div id="marco"> 
+ 			<h1 id="logo">			   
+			   <img src="imagenes/logo.png" title="Gisoft Colombia"/>
+			</h1>                      
+			<nav> 
+			  <ul>
+				<li><a href="#" title=""><span>Inicio</span></a></li>                    
+				<li><a href="#" title=""><span>Nosotros</span></a></li>
+				<li><a href="#" title=""><span>Servicios</span></a></li>
+				<li><a href="#" title=""><span>Blog</span></a></li>
+				<li><a href="#" title=""><span>Contactenos</span></a></li>                                           
+			  </ul>                               
+			</nav>
+		</div> 		  
+		</header>
+      <div id="wrap">     
+           
+      </div>  
+    
+		<footer>
+			<div id="foot_marco">
+				<div id="foot_cont">
+					<p class="titulo_foot">CONTACTANOS</p>
+				</div>
+				<div id="foot_web">
+					<p class="titulo_foot">SIGUENOS EN:</p>
+					<a href="https://http://www.facebook.com/pages/Gisoft-Colombia-sas/334449816590060" target="_blank"><img src="imagenes/face.png" title="Gisoft Colombia s.a.s."/></a>
+					<a href="https://twitter.com/gisoftsas" target="_blank"><img src="imagenes/twitter.png" title="@gisoftsas"/></a>
+					<a href="https://twitter.com/gisoftsas" target="_blank"><img src="imagenes/googleplus.png" title="Gisoftcolombia"/></a>
+					<a href="https://twitter.com/gisoftsas" target="_blank"><img src="imagenes/ico_rss.png" title="RSS"/></a>
+				</div>									
+				<div id="foot_tecnologias">
+					<p class="titulo_foot">TECNOLOGIAS</p>
+					<img src="imagenes/tecnologias.png" title="@gisoftcolombia" align="center"/>
+				</div>
+			</div>
+		</footer>
+	</body>
+      
+</html>
